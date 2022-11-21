@@ -1,0 +1,62 @@
+/* ------------------------------- Overall Styling ---------------------------------*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    color: inherit;
+}
+
+/* ------------------------------- Navbar Styling ---------------------------------*/
+nav
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+nav > header
+{
+    width: fit-content;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.nlink
+{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #0ea0aa;
+}
+
+#main
+{
+    margin: 50px 100px 50px 100px;
+    font-size: 25px;
+}
+li,ul
+{
+    width: fit-content;
+}
+#html-inner,#media,#css-inner,#intro-css
+{
+    margin-left: 50px;
+    display: none;
+}
+
+#html:hover #html-inner,
+#mediap:hover #media,
+#css:hover #css-inner,
+#css-inner:hover #intro-css
+{
+    display: block;
+}

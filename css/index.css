@@ -1,0 +1,79 @@
+/* ------------------------------- Overall Styling ---------------------------------*/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    color: inherit;
+}
+
+/* ------------------------------- Navbar Styling ---------------------------------*/
+nav
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+nav > header
+{
+    width: fit-content;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.nlink
+{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #0ea0aa;
+}
+
+/* ------------------------------- Page Styling ---------------------------------*/
+section
+{
+    width: 1200px;
+    margin: auto;
+    padding: 0px 2px 0px 2px;
+    margin-top: 20px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: gray;
+}
+.infol
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.imgi
+{
+    width: 30%;
+    border: 2px solid black;
+    margin-right: 2px;
+    padding: 10px;
+}
+.imgi img
+{
+    width: 100%;
+}
+.infow
+{
+    width: 70%;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid black;
+}
